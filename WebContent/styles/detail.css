@@ -1,0 +1,106 @@
+#mainPid {
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	width: 1004px;
+}
+#main {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1004px;
+}
+#subMemu {
+
+	width: 200px;
+	min-height: 400px;
+	float: left;
+}
+#subMenuHeader {
+	background: url("../images/sub-menu-header-1.jpg") no-repeat;
+	font-family: "骞煎渾";
+	width: 200px;
+	height: 55px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+#subMemu li {
+	float: left;
+	width: 198px;
+	border-bottom: 1px dotted gray;
+	line-height: 30px;
+	height: 30px;
+	background: url("../images/n-jt.jpg") no-repeat 20px;
+	border-left: 1px solid #DBDBDB;
+	border-right: 1px solid #DBDBDB;
+	text-align: center;
+}
+#subMemu .btm {
+	background: url("../images/er-di.jpg") no-repeat;
+	float: left;
+	width: 200px;
+	min-height: 34px;
+}
+#content {
+	width: 784px;
+	min-height: 400px;
+	/*	background: blue;*/
+	margin-left: 20px;
+	float: left;
+}
+#contentHeader {
+	font-size: 15px;
+	font-weight: bold;
+	background: url("../images/n-jiantou.jpg") no-repeat 0px;
+	width: 200px;
+	padding-left: 30px;
+	line-height: 30px;
+	height: 30px;
+}
+#nav {
+	color: gray;
+	line-height: 30px;
+	height: 30px;
+	padding-left: 5px;
+}
+#content hr {
+	width: 782px;
+	height: 1px;
+	border-top: 1px solid black;
+}
+#content .title {
+	width: 782px;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #777777;
+}
+#content .info {
+	width: 782px;
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+	font-size: 12px;
+	margin-bottom: 15px;
+	color:#000000;
+}
+#content .news {
+	width: 782px;
+	font-size: 14px;
+	line-height: 25px;
+	
+}
+.news p {
+	font-size: 14px;
+	text-indent: 32px;
+}
+
+#content .newslink{
+	font-size: 12px;
+	margin-top: 30px;
+}

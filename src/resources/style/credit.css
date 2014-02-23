@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+/* s 信用等级 */
+.srank_01,.srank_02,.srank_03,.srank_04,.srank_05,
+.srank_11,.srank_12,.srank_13,.srank_14,.srank_15,
+.srank_21,.srank_22,.srank_23,.srank_24,.srank_25,
+.srank_31,.srank_32,.srank_33,.srank_34,.srank_35,
+.srank_41,.srank_42,.srank_43,.srank_44,.srank_45,
+.srank_51,.srank_52,.srank_53,.srank_54,.srank_55,
+.srank_61,.srank_62,.srank_63,.srank_64,.srank_65,
+.srank_71,.srank_72,.srank_73,.srank_74,.srank_75,
+.srank_81,.srank_82,.srank_83,.srank_84,.srank_85{
+	display:inline-block;
+	-moz-box-align:center;
+	-moz-box-pack:center;
+	vertical-align:middle;
+	outline-color:-moz-use-text-color;
+	outline-style:none;
+	outline-width:medium;
+	height:18px;
+	background-image:url(http://static.paipaiimg.com/module/credit.gif);
+	background-repeat:no-repeat;
+	margin-left:5px;
+}
+	/* s 卖家星星信用等级 */
+.srank_01{
+	background-position:0 0;
+	width:13px;
+}
+.srank_02{
+	background-position:0 0;
+	width:29px;
+}
+.srank_03{
+	background-position:0 0;
+	width:44px;
+}
+.srank_04{
+	background-position:0 0;
+	width:60px;
+}
+.srank_05{
+	background-position:0 0;
+	width:78px;
+}
+	/* e 卖家星星信用等级 */
+	/* s 卖家黄钻信用等级 */
+.srank_11{
+	background-position:0 -20px;
+	width:18px;
+}
+.srank_12{
+	background-position:0 -20px;
+	width:36px;
+}
+.srank_13{
+	background-position:0 -20px;
+	width:54px;
+}
+.srank_14{
+	background-position:0 -20px;
+	width:72px;
+}
+.srank_15{
+	background-position:0 -20px;
+	width:87px;
+}
+	/* e 卖家黄钻信用等级 */
+	/* s 卖家银冠信用等级 */
+.srank_21{
+	background-position:0 -40px;
+	width:18px;
+}
+.srank_22{
+	background-position:0 -40px;
+	width:36px;
+}
+.srank_23{
+	background-position:0 -40px;
+	width:54px;
+}
+.srank_24{
+	background-position:0 -40px;
+	width:72px;
+}
+.srank_25{
+	background-position:0 -40px;
+	width:87px;
+}
+	/* e 卖家银冠信用等级 */
+	/* s 卖家黄冠信用等级 */
+.srank_31{
+	background-position:0 -60px;
+	width:18px;
+}
+.srank_32{
+	background-position:0 -60px;
+	width:36px;
+}
+.srank_33{
+	background-position:0 -60px;
+	width:54px;
+}
+.srank_34{
+	background-position:0 -60px;
+	width:72px;
+}
+.srank_35{
+	background-position:0 -60px;
+	width:87px;
+}
+	/* e 卖家黄冠信用等级 */
+.srank_41{
+	background-position:0 -239px;
+	width:83px;
+}
+.srank_42{
+	background-position:0 -260px;
+	width:83px;
+}
+.srank_43{
+	background-position:0 -281px;
+	width:83px;
+}
+.srank_44{
+	background-position:0 -40px;
+	width:83px;
+}
+.srank_45{
+	background-position:0 -40px;
+	width:83px;
+}
+	/* s 买家星星信用等级 */
+.srank_51{
+	background-position:0 -80px;
+	width:13px;
+}
+.srank_52{
+	background-position:0 -80px;
+	width:29px;
+}
+.srank_53{
+	background-position:0 -80px;
+	width:44px;
+}
+.srank_54{
+	background-position:0 -80px;
+	width:60px;
+}
+.srank_55{
+	background-position:0 -80px;
+	width:78px;
+}
+	/* e 买家星星信用等级 */
+	/* s 买家蓝钻信用等级 */
+.srank_61{
+	background-position:0 -100px;
+	width:18px;
+}
+.srank_62{
+	background-position:0 -100px;
+	width:36px;
+}
+.srank_63{
+	background-position:0 -100px;
+	width:54px;
+}
+.srank_64{
+	background-position:0 -100px;
+	width:72px;
+}
+.srank_65{
+	background-position:0 -100px;
+	width:87px;
+}
+	/* e 买家蓝钻信用等级 */
+	/* s 买家银冠信用等级 */
+.srank_71{
+	background-position:0 -120px;
+	width:18px;
+}
+.srank_72{
+	background-position:0 -120px;
+	width:36px;
+}
+.srank_73{
+	background-position:0 -120px;
+	width:54px;
+}
+.srank_74{
+	background-position:0 -120px;
+	width:72px;
+}
+.srank_75{
+	background-position:0 -120px;
+	width:87px;
+}
+	/* e 买家银冠信用等级 */
+	/* s 买家黄冠信用等级 */
+.srank_81{
+	background-position:0 -140px;
+	width:18px;
+}
+.srank_82{
+	background-position:0 -140px;
+	width:36px;
+}
+.srank_83{
+	background-position:0 -140px;
+	width:54px;
+}
+.srank_84{
+	background-position:0 -140px;
+	width:72px;
+}
+.srank_85{
+	background-position:0 -140px;
+	width:87px
+	/* e 买家黄冠信用等级 */
+/* e 信用等级 *//*  |xGv00|caa41eb6694359d4037c591ef2c1d55a */

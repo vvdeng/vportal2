@@ -1,0 +1,79 @@
+#logo{
+	float:left;
+	width:215px;
+	height:69px;
+	background: url("../../images/logoBg.png") 0 0 repeat-x;
+}
+#right{
+	
+	margin-left:215px;
+	height:69px;
+	background-image: url("../../images/topBg.gif") ;
+	background-size: cover
+}
+#simpleInfo{
+	height:38px;
+	line-height: 38px;
+	color:white;
+}
+#simpleInfo a{
+	color:white;
+}
+#welcome{
+	color:white;
+	float: left;
+	min-width:50px;
+	background:url("../../images/welconloginIcon.png") 0 center no-repeat;
+	padding-left:20px;
+	margin-right:10px;
+}
+#logout{
+	color:white;
+	float: left;
+	min-width:50px;
+	background:url("../../images/loginoutIcon.png") 0 center no-repeat;
+	padding-left:20px;
+	margin-right:10px;
+}
+#message{
+	color:white;
+	float: left;
+	min-width:50px;
+	background:url("../../images/messageUnread.png") 0 center no-repeat;
+	padding-left:20px;
+	margin-right:10px;
+}
+#gotoIndex{
+	
+	float:right;
+	margin-right:10px;
+}
+#gotoIndex a{
+	color:white;
+}
+
+#menu{
+	
+	height:31px;
+	line-height:31px;
+	background: url("../../images/menuBg.png") 0 0 repeat-x;
+	padding-left: 20px;
+	
+}
+#menu li{
+	float:left;
+	width:72px;
+	font-size:14px;
+	font-weight:bold;
+	text-align: center;
+}
+#menu a{
+	font-size:14px;
+	
+}
+#menu li.sep {
+  background: url("../../images/step.png") no-repeat scroll 0 0 transparent;
+  height: 31px;
+  margin: 0 5px;
+  width: 2px;
+}

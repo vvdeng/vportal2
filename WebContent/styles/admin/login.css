@@ -1,0 +1,71 @@
+body {
+	background: url("../../images/loginBg.jpg") 0 0 repeat-x;
+}
+#left {
+	float: left;
+	width: 55%;
+	position: relative;
+}
+#decorator {
+	position: absolute;
+	top: 200px;
+	right: 30px;
+}
+#line {
+	position: absolute;
+	top: 300px;
+	right: 0px;
+}
+#main {
+	margin-left: 55%;
+	position: relative;
+}
+#loginArea {
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	top: 250px;
+	left: 0px;
+}
+#loginTitle {
+	padding-left: 60px;
+}
+.field {
+	height: 50px;
+	line-height: 50px;
+}
+.field span {
+	display: inline-block;
+}
+.field .name {
+	font-weight: bold;
+	width: 60px;
+	text-align: right;
+	margin-right: 10px;
+}
+.val input {
+	border: solid 1px;
+	border-color: black gray gray black;
+	width: 150px;
+	height: 20px;
+}
+.submitArea {
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+.submitArea input{
+	height:25px;
+	width:58px;
+	cursor: pointer;
+	float:left;
+	
+}
+#submit{
+	background: url("../../images/login.jpg") no-repeat;
+	margin-left:80px;
+}
+#reset{
+	background: url("../../images/reset.jpg") no-repeat;
+	margin-left:10px;
+}

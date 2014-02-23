@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<decorators defaultdir="/WEB-INF/jsp/decorators">
+	<excludes>
+		<pattern>/admin/login.xhtml</pattern>
+		<pattern>/index.xhtml</pattern>
+		<pattern>/top.xhtml</pattern>
+		<pattern>/center.xhtml</pattern>
+		<pattern>/menu.xhtml</pattern>
+		<pattern>/nav.xhtml</pattern>
+		<pattern>/welcome.xhtml</pattern>
+		<pattern>*.jhtml</pattern>
+	</excludes>
+	<decorator name="default" page="default.jsp">
+		<pattern>*.xhtml</pattern>
+	</decorator>
+</decorators>

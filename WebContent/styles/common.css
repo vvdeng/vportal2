@@ -1,0 +1,31 @@
+* {
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px none;
+	color: #5F5F5F;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.clear {
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+.h {
+	display: none;
+}
+
+.tail {
+	border: none !important;
+}
+
+.r {
+	color: red;
+}

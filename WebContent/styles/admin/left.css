@@ -1,0 +1,27 @@
+.lbody {
+	background: url("../../images/lbg.jpg") repeat-y scroll right center #F6FAFB;
+	color: #666666;
+	margin-right: 6px;
+}
+#timeZone {
+	width:215px;
+	line-height: 34px;
+	height: 34px;
+	border-bottom: solid 1px #B9CEED;
+	background: url("../../images/icon.png") no-repeat scroll 6px -106px transparent;
+	color: #6A5C5C;
+	text-indent: 25px;
+}
+#opt{
+	width:215px;
+	text-align:center;
+}
+#opt li{
+	float:left;
+	margin-left:22px;
+	background: url("../../images/optListBg.png") 0 0 no-repeat;
+	width: 170px;
+	height:25px;
+	line-height:25px;
+	margin-top:12px;
+}

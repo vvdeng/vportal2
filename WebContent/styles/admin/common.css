@@ -1,0 +1,23 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	border: 0px;
+	color: #364F56;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.r {
+	color: red;
+}
+
+.h {
+	display: none;
+}

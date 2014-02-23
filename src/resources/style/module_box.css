@@ -1,0 +1,224 @@
+/*
+Copyright (c) 2009,paipai Inc. All rights reserved.
+version:1.0 鐢ㄤ簬鎸夌航鏍峰紡 2009.09.22 ghostzhang create
+*/
+
+/* S 閫氱敤娴嚭灞� */
+.module_box_normal{
+position:absolute;
+z-index:50;
+border:1px solid #8CC0E7;
+background-color:#FAFDFF;
+-webkit-box-shadow:4px 5px 0 #D9D9D9;
+-moz-box-shadow:4px 5px 0 #D9D9D9;
+/*box-shadow:4px 5px 0 #D9D9D9;*/
+_zoom:1;
+}
+.module_box_normal .box_title{
+background-color:#D2EDFF;
+font-family:"瀹嬩綋";
+font-size:14px;
+font-weight:700;
+height:30px;
+line-height:30px;
+padding-left:10px;
+text-align:left;
+}
+.module_box_normal .box_title h4{
+float:left;
+}
+.module_box_normal .box_title .bt_close{
+float:right;
+width:13px;
+height:13px;
+margin:8px 10px 0 0;
+background:url(http://static.paipaiimg.com/assets/common/box1.png) no-repeat 0 -42px;
+font-size:0;
+}
+.module_box_normal .box_title .bt_close:hover{
+background-position:-16px -42px;
+}
+.module_box_normal .box_content{
+padding:20px;
+line-height:1.5em;
+text-align:left;
+}
+.module_box_normal .box_content a{
+color:#014CCC;
+text-decoration:none;
+}
+.module_box_normal .box_content a:hover{
+text-decoration:underline;
+}
+/* E 閫氱敤娴嚭灞� */
+/* S 閫氱敤鎻愮ず */
+.box_hint_normal{
+overflow:hidden;
+*overflow:visible;
+padding:3px 0 0 34px;
+*padding-left:0;
+}
+.box_hint_normal .icon{
+float:left;
+margin:-3px 0 0 -34px;
+*margin-left:0;
+*margin-right:10px;
+}
+.box_hint_normal .hint_content{
+float:left;
+color:#333333;
+}
+.box_hint_normal .hint_title{
+margin-bottom:5px;
+font-size:14px;
+}
+.box_hint_normal .hint_op{
+margin:15px 0 5px;
+}
+.box_hint_normal .hint_op button{
+margin-right:10px;
+vertical-align:middle;
+line-height:18px;padding:0 6px;font-size:12x;height:24px;height:22px\9;line-height:18px\9;*padding:0 4px;
+}
+/* E 閫氱敤鎻愮ず */
+.module_box_normal .loading{
+padding:30px;
+font-size:14px;
+text-align:center;
+}
+.module_box_normal .loading img{
+margin-top:-2px;
+margin-right:15px;
+vertical-align:middle;
+}
+/* S 娴獥鐧婚檰缁勪欢鏍峰紡 */
+.loginunit2 h3, .loginunit2 h3 span, .loginunit2 h3 strong {
+	background:url(http://static.paipaiimg.com/assets/index/loginbg_080820.png) no-repeat
+}
+.loginunit2 {
+	overflow:hidden;
+	width:379px;
+	height:295px;
+	background:#eef5ff;
+	border:1px solid #8cc0e7;
+	text-align:left
+}
+.loginunit2 h3 {
+	overflow:hidden;
+	height:27px;
+	background-position:0 -30px;
+	border-bottom:1px solid #fff;
+	line-height:30px;
+	font-size:14px;
+	cursor:default
+}
+.loginunit2 h3 span {
+	float:right;
+	display:inline-block;
+	width:13px;
+	height:13px;
+	margin:7px 10px 0 0;
+	background-position:0 -90px;
+	text-indent:-9999px;
+	cursor:pointer
+}
+.loginunit2 h3 strong {
+	display:inline-block;
+	overflow:hidden;
+	float:left;
+	width:11px;
+	height:15px;
+	margin:7px 8px 0 10px;
+	background-position:0 -67px;
+	text-indent:9999px;
+}
+.loginunit2 h3 em {
+	display:block;
+	overflow:hidden;
+	float:left;
+	width:290px;
+	font-weight:bold;
+	color:#fff
+}
+.loginunit2 iframe {
+	overflow:hidden;
+	width:371px;
+	height:235px
+}
+.loginunit2 #loginXieyi {
+	text-align:center;
+	line-height:150%;
+}
+.loginunit2 a.blule:link, .loginunit2 a.blule:visited {
+	color:#014cc9;
+	text-decoration:none;
+}
+.loginunit2 a.blule:hover, .loginunit2 a.blule:active {
+	color:#ff4e00;
+	text-decoration:none
+}
+.loginunit h3, .loginunit h3 span, .loginunit h3 strong {
+	background:url(http://static.paipaiimg.com/assets/index/loginbg_080820.png) no-repeat
+}
+.loginunit {
+	overflow:hidden;
+	width:395px;
+	height:331px;
+	background:#f2faff;
+	border:1px solid #8cc0e7;
+	text-align:left
+}
+.loginunit h3 {
+	overflow:hidden;
+	height:30px;
+	border-bottom:1px solid #fff;
+	line-height:30px;
+	font-size:14px;
+	cursor:default;
+}
+.loginunit h3 span {
+	float:right;
+	display:inline-block;
+	width:13px;
+	height:13px;
+	margin:7px 10px 0 0;
+	background-position:0 -90px;
+	text-indent:-9999px;
+	cursor:pointer
+}
+.loginunit h3 strong {
+	display:inline-block;
+	overflow:hidden;
+	float:left;
+	width:11px;
+	height:15px;
+	margin:7px 8px 0 10px;
+	background-position:0 -67px;
+	text-indent:9999px;
+}
+.loginunit h3 em {
+	display:block;
+	overflow:hidden;
+	float:left;
+	width:290px;
+	font-weight:bold;
+	color:#333
+}
+.loginunit iframe {
+	overflow:hidden;
+	width:371px;
+	height:235px
+}
+.loginunit #loginXieyi {
+	text-align:center;
+	line-height:150%;
+}
+.loginunit a.blule:link, .loginunit a.blule:visited {
+	color:#014cc9;
+	text-decoration:none;
+}
+.loginunit a.blule:hover, .loginunit a.blule:active {
+	color:#ff4e00;
+	text-decoration:none
+}
+/* E 娴獥鐧婚檰缁勪欢鏍峰紡 *//*  |xGv00|827ae8d9f60aa44441da7dfad769dff7 */

@@ -1,0 +1,9 @@
+#bottom{
+	background: url("../images/bottom.jpg")  repeat-x;
+	text-align: center;
+/*	height: 124px;*/
+
+	width:100%;
+	padding-top:75px;
+	padding-bottom:5px;
+}

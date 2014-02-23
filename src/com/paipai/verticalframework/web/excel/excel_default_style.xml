@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GBK"?>
+<excel>
+	<styles>
+		<style name="titleStyle">
+			<height>800</height>
+			<font>微软雅黑</font>
+			<weight>20</weight>
+			<bold>true</bold>
+			<color>0:0:0</color>
+			<backColor>ffff:ffff:ffff</backColor>
+		</style>
+		<style name="headStyle">
+			<height>700</height>
+			<font>黑体</font>
+			<weight>16</weight>
+			<bold>true</bold>
+			<color>0:0:0</color>
+			<backColor>ffff:ffff:ffff</backColor>
+		</style>
+		<style name="rowStyle">
+			<height>600</height>
+			<font>宋体</font>
+			<weight>10</weight>
+			<bold>false</bold>
+			<color>0:0:0</color>
+			<backColor>ffff:ffff:ffff</backColor>
+		</style>
+	</styles>
+</excel>

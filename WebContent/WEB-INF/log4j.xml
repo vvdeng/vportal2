@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<appender name="Console"
+		class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%X{__ThreadID}][%d{MM/dd HH:mm:ss}][%X{__UserName}:%X{__RequestIP}][%C{1} %M %L] [%-3p] %c{1}: %m%n" />
+		</layout>
+	</appender>
+	<!-- 普通日志：每个URI请求一个日志，日志循环滚动，每个日志10M，最多10个滚动日志文件 -->
+	<appender name="Message"
+		class="com.paipai.verticalframework.log.URILogAppender">
+		<param name="MaxFileSize" value="10MB" />
+		<param name="MaxBackupIndex" value="10" />
+		<param name="ActionLogDir" value="${catalina.home}/logs/app/uri" />
+		<param name="DefaultFileName" value="${catalina.home}/logs/app/default.log" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%X{__ThreadID}][%d{yyyy-MM-dd HH:mm:ss}][%X{__UserName}:%X{__RequestIP}][%C{1} %M %L] [%-3p] %c{1}: %m%n" />
+		</layout>
+	</appender>
+	<!-- Key日志：所有Key日志存储一个文件，按天滚动 -->
+	<appender name="Key"
+		class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="DatePattern" value="yyyyMMdd" />
+		<param name="File" value="${catalina.home}/logs/app/key/lifeboss.log" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%X{__ThreadID}][%d{yyyy-MM-dd HH:mm:ss}][%X{__UserName}:%X{__RequestIP}][%C{1} %M %L] [%-3p] %c{1}: %m%n" />
+		</layout>
+	</appender>
+	
+	<logger name="message">
+		<level value="info" />
+		<appender-ref ref="Message" />
+	</logger>
+	
+	<logger name="key">
+		<level value="info" />
+		<appender-ref ref="Message" />
+		<appender-ref ref="Key" />
+	</logger>
+	
+	<root>
+		<level value="info" />
+		<appender-ref ref="Console" />
+	</root>
+</log4j:configuration>

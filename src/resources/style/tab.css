@@ -1,0 +1,57 @@
+.tab_con{}
+.tabnav{}
+/*tabnav ul*/
+.tabnav { position:relative; height:100%; overflow:hidden; margin-bottom:-1px;}
+.tabnav li{ float:left;} 
+.tabnav li a{ display:block; height:26px; overflow:hidden; text-align:center; font:normal 12px/1em SimSun,Arial, Helvetica, sans-serif; }
+.tabnav li a em{ float:left; height:19px; padding-top:9px; cursor:pointer;}
+.tab_panel{border-width:1px; border-style:solid; text-align:left;}
+.tab_h{ display:none;}
+.tabcon{ padding:5px 10px;}
+/*set color*/
+/*gray color*/
+.tab_gray .tabnav li{color:#666;}
+.tab_gray .tabnav li.c{color:#333;}
+.tab_gray .tabnav li a{color:#666;background:url(tab_bg.png) no-repeat;}
+.tab_gray .tabnav li a em{ background:url(tab_bg.png) no-repeat;}
+.tab_gray .tabnav li a:hover{color:#666;text-decoration:none; background-position:0 -34px;}
+.tab_gray .tabnav li a:hover em{color:#666;text-decoration:none; background-position:right -34px;}
+.tab_gray .tabnav li.c a:link,
+.tab_gray .tabnav li.c a:visited{ font-weight:bold; color:#333; background-color:#fff; background-position:0 0;}
+.tab_gray .tabnav li.c a:hover{color:#ff6600; background-position:0 0;}
+.tab_gray .tabnav li.c a em{ font-weight:bold; background-position:right 0;}
+.tab_gray .tabnav li.c a:hover em{color:#ff6600; text-decoration:underline; background-position:right 0;}
+.tab_gray .tab_panel{border-color:#ccc;background:#fff;}
+/*set size*/
+/*鍥哄畾瀹藉害190px*/
+.fix190{ width:190px;}
+.fix190 .tabnav{ width:192px;}
+.fix190 .tabnav{ width:192px;}
+.fix190 .tabnav li{ margin-right:2px; width:62px; height:27px;}
+.fix190 .tabnav li a{ padding-left:3px; background-position:0 -65px;}
+.fix190 .tabnav li a em{ width:56px; padding-right:3px;background-position:right -65px;}
+.fix190 .tabnav li.c a{ height:27px; background-position:0 0;}
+.fix190 .tabnav li.c a em{ background-position:right 0;}
+/*鑷�傚簲瀹藉害鐩磋*/
+.auto_angle .tabnav {border-left:1px solid #cdcdcd;}
+.auto_angle .tabnav li a{ float:left; border-right:1px solid #cdcdcd; border-top:1px solid #cdcdcd; background-position:0 -96px; background-repeat:repeat-x;}
+.auto_angle .tabnav li a em{ padding:8px 20px 0; background:none;}
+.auto_angle .tabnav li a:hover{ background:none;}
+.auto_angle .tabnav li.c a{background:#fff;}
+/*鑷�傚簲瀹藉害鍦嗚*/
+.auto_round .tabnav li{position:relative;margin-right:2px; top:2px;}
+.auto_round .tabnav li a{ float:left; height:29px; padding:0 0 0 3px;background-position:0 -65px;}
+.auto_round .tabnav li a em{ padding-left:17px; padding-right:20px; background-position:right -65px;}
+.auto_round .tabnav li.c{top:0;}
+.auto_round .tabnav li.c a,.auto_round .tabnav li.c a:hover{ height:29px;background-position:0 0;}
+.auto_round .tabnav li.c a em,.auto_round .tabnav li.c a:hover em{ padding-top:11px; background-position:right 0;}
+/*渚ц竟tab*/
+.tab_side .tabnav{ float:left; height:100%; margin-right:-1px;}
+.tab_side .tabnav{ float:left;}
+.tab_side .tabnav li{ clear:both; height:36px; margin-bottom:2px; text-align:left;}
+.tab_side .tabnav li a{ float:left; padding:0 20px; height:35px; line-height:35px; text-align:center; background-position:0 -200px; font-weight:bold; font-size:14px;}
+.tab_side .tabnav li.c a:link,
+.tab_side .tabnav li.c a:visited{padding:0 21px 0 20px; background-position:0 -126px;}
+.tab_side .tabnav li a em,.tab_side .tabnav li.c a em{ display:block; float:left;height:35px; padding:0; background:none; text-align:center; font-weight:bold;}
+.tab_side .tabnav li a:hover{ background-position:0 -163px;}
+.tab_side .tab_panel{ float:left;}/*  |xGv00|19dee7ddae7c3df46c6d3fa5139d87af */

@@ -1,0 +1,361 @@
+#mainPicArea {
+	width: 100%;
+	height: 451px;
+	position: relative;
+}
+
+.picList  img {
+	cursor: default;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 0;
+}
+
+.picList  img.fix {
+	z-index: 20;
+}
+
+.picSel {
+	position: absolute;
+	z-index: 30;
+}
+
+.picSel li {
+	float: left;
+	cursor: pointer;
+}
+
+#mainPicArea .picSel {
+	top: 410px;
+	left: 184px;
+}
+
+#mainPicArea .picSel li {
+	width: 90px;
+	background-color: white; /*my hack 否则无背景无内容ie下会不显示该区域*/
+	height: 34px;
+	margin-left: 10px;
+	opacity: 0.0;
+	filter: Alpha(opacity =     0);
+}
+
+#main {
+	margin: auto;
+	width: 1004px;
+}
+
+#seperator {
+	
+}
+
+#latestNews {
+	height: 31px;
+	margin-bottom:10px;
+}
+
+#latestNews img {
+	float: left;
+	vertical-align: top;
+	height: 31px;
+}
+
+#newsBubble {
+	float: left;
+	position: relative;
+	/*	border-top: 1px solid #E8E8E8;*/
+	border-right: 1px solid #E8E8E8;
+	border-bottom: 1px solid #E8E8E8;
+	/*	background-color: #F8F8F8;*/
+	background: url("../images/gonggao-bg.jpg") repeat-x 0 0;
+	height: 30px;
+	line-height: 30px;
+	width: 826px;
+	padding-left: 80px;
+	margin-bottom: 10px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#newsBubble li {
+	position: absolute;
+	width: 400px;
+	height: 30px;
+	line-height: 30px;
+	overflow-x: hidden;
+}
+#newsBubble li span{
+	padding-left: 60px;
+}
+.region {
+	float: left;
+	width: 372px;
+	border: 1px solid #E8E8E8;
+}
+
+.region .header {
+	float: left;
+	background: url("../images/lanmu-bg.jpg") repeat-x scroll 0 0
+		transparent;
+	width: 100%;
+	height: 27px;
+	line-height: 27px;
+	font-weight: bold;
+}
+
+.header img {
+	vertical-align: middle;
+}
+
+.region .content {
+	height: 200px;
+}
+
+.region .info li {
+	float: left;
+	width: 362px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 25px;
+	line-height: 25px;
+	border-bottom: 1px dashed #CCCCCC;
+	list-style-type: disc;
+	list-style-position: inside;
+	overflow-x:hidden;
+	position: relative;
+}
+
+.region .info li span {
+	position: absolute;
+	right: 2px;
+}
+
+#region1 {
+	float: left;
+	width: 553px;
+	border: 1px solid #E8E8E8;
+	margin-right: 15px;
+}
+
+#picShow {
+	height: 160px;
+	width: 238px;
+	float: left;
+	position: relative;
+}
+
+#picShow .picSel {
+	top: 130px;
+	left: 134px;
+}
+
+#picShow .picSel li {
+	width: 18px;
+	/*	background-color: yellow;*/
+	height: 18px;
+	line-height: 18px;
+	margin-left: 5px;
+	color: #CCCCCC;
+	border: 1px solid #999999;
+	text-align: center;
+	background-color: #666666;
+	opacity: 0.7;
+	font-family: Verdana;
+}
+
+#picShow li.sel {
+	background-color: red;
+	color: black;
+	font-weight: bold;
+}
+
+#region1 .header {
+	float: left;
+	background: url("../images/lanmu-bg.jpg") repeat-x scroll 0 0
+		transparent;
+	width: 315px;
+	height: 27px;
+	line-height: 27px;
+	font-weight: bold;
+}
+
+.title {
+	float: left;
+	width: 305px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #CCCCCC;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.title a {
+	color: #990000;
+}
+
+#region1 .abstract {
+	float: left;
+	width: 305px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 20px;
+	height:80px;
+	overflow:hidden;
+}
+
+#region1 .newsList {
+	padding-top: 10px;
+	height:144px;
+}
+
+#region1 .newsList li {
+	padding-left: 10px;
+	list-style-type: disc;
+	list-style-position: inside;
+	float: left;
+	width: 538px;
+	height: 25px;
+	line-height: 25px;
+	border-bottom: 1px dashed #CCCCCC;
+	position: relative;
+}
+
+#region1 .newsList span {
+	position:absolute;
+	right: 2px;
+}
+
+#region2 {
+	float: left;
+	width: 430px;
+	border: 1px solid #E8E8E8;
+	height:165px;
+}
+#region2 .loading{
+	display:table-cell;
+	text-align:center;
+	vertical-align: middle;
+	width: 430px;
+	height: 165px;
+}
+#region2 .header {
+	
+}
+
+#region2 .header li {
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	float: left;
+	width: 85px;
+	height: 25px;
+	line-height: 25px;
+	background: url("../images/qiehuan-bg2.jpg") no-repeat scroll 0 0
+		transparent;
+}
+
+#region2 .header li.hover {
+	background: url("../images/qiehuan-bg.jpg") no-repeat scroll 0 0
+		transparent;
+}
+
+#region2 .content {
+	padding-left: 10px;
+	padding-top: 10px;
+	height: 130px;
+}
+
+#region2 .itemList {
+	float: right;
+	width: 280px;
+}
+
+#region2 .itemList li {
+	float: left;
+	text-align: center;
+	width: 90px;
+	line-height: 25px;
+}
+
+#region3 {
+	width: 430px;
+}
+
+#region3 .content {
+	height: 120px;
+	width: 430px;
+	position: relative;;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#region3 .itemList {
+	position: absolute;
+	width: 100%;
+}
+
+#region3 .itemList li {
+	padding-top: 10px;
+	float: left;
+	width: 130px;
+	text-align: center;
+}
+
+#region3 .itemList li span {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#region4 {
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+#region5 {
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+#region6 {
+	margin-top: 15px;
+	width: 222px;
+}
+
+#region6 .itemList li {
+	width: 212px;
+	overflow-x: hidden;
+}
+
+#region7 {
+	width: 997px;
+	margin-top: 15px;
+}
+
+#region7 .content {
+	
+	height: 120px;
+	position: relative;;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#region7 .itemList {
+	
+	position: absolute;
+	width: 100%;
+}
+
+#region7 .itemList li {
+	
+	padding-top: 10px;
+	float: left;
+	width: 124px;
+	text-align: center;
+}
+
+#region7 .itemList li span {
+	display: inline-block;
+	margin-top: 10px;
+}

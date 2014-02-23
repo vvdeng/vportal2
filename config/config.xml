@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Life System Configuration</comment>	
+	<!-- 系统 -->
+	<entry key="system">Life</entry>	
+	<!-- 错误码类 -->
+	<entry key="system.codeconstant">com.paipai.boss.life.util.LifeCodeConstant</entry>
+	
+	<!-- 数据库配置 -->
+	<entry key="database.driverName">com.mysql.jdbc.Driver</entry>
+	<entry key="database.url">jdbc:mysql://localhost:3306/vportal2?useUnicode=true&amp;characterEncoding=UTF-8</entry>
+	<entry key="database.user">root</entry>
+	<entry key="database.password">vv</entry>
+	<entry key="database.initialSize">0</entry>
+	<entry key="database.maxActive">10</entry>
+	<entry key="database.maxIdle">10</entry>
+	<entry key="database.minIdle">10</entry>
+	<entry key="database.maxWait">2000</entry>
+	
+	
+	<!-- Hibernate配置 -->
+	<entry key="hibernate.dialect">org.hibernate.dialect.MySQLInnoDBDialect</entry>
+	<entry key="hibernate.show_sql">true</entry>
+	<entry key="hibernate.format_sql">true</entry>
+	
+	<!-- 安全配置 -->
+	<entry key="security.systemId">lifeboss_local</entry>
+	<entry key="security.bossAdminUrl">http://dev.boss.com/bossadmin/</entry>	
+	
+	
+</properties>

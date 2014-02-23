@@ -1,0 +1,35 @@
+/**
+ * Copyright (C) 1998-2008 TENCENT Inc.All Rights Reserved.
+ * 
+ * FileName??PaiPaiBodyTagSupport.java
+ * 
+ * Description??<????????????????>
+ * History??
+ * ?汾??		????				????			?????????????
+ * 1.0		carldong		2010-11-19			????
+ */
+package com.paipai.verticalframework.ui.component.tag.table;
+
+import java.io.IOException;
+
+import javax.servlet.jsp.tagext.BodyTagSupport;
+
+/**
+ * <??????>
+ * 
+ * @author carldong????????????
+ * @version 1.0???°汾???
+ * @see ?ο???JavaDoc
+ */
+@SuppressWarnings("serial")
+public class PaiPaiBodyTagSupport extends BodyTagSupport {
+
+	protected void flushTag(StringBuffer buffer) {
+		try {
+			pageContext.getOut().print(buffer);
+		}
+		catch (IOException e) {
+			throw new RuntimeException(e);
+		}
+	}
+}

@@ -1,0 +1,183 @@
+#mainPid {
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	width: 1004px;
+}
+#main {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1004px;
+}
+#subMemu {
+
+	width: 200px;
+	min-height: 400px;
+	float: left;
+}
+#subMenuHeader {
+	background: url("../images/sub-menu-header-1.jpg") no-repeat;
+	font-family: "骞煎渾";
+	width: 200px;
+	height: 55px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+#subMemu li {
+	float: left;
+	width: 198px;
+	border-bottom: 1px dotted gray;
+	line-height: 30px;
+	height: 30px;
+	background: url("../images/n-jt.jpg") no-repeat 20px;
+	border-left: 1px solid #DBDBDB;
+	border-right: 1px solid #DBDBDB;
+	text-align: center;
+}
+#subMemu .btm {
+	background: url("../images/er-di.jpg") no-repeat;
+	float: left;
+	width: 200px;
+	min-height: 34px;
+}
+#content {
+	width: 784px;
+	min-height: 400px;
+	/*	background: blue;*/
+	margin-left: 20px;
+	float: left;
+}
+#contentHeader {
+	font-size: 15px;
+	font-weight: bold;
+	background: url("../images/n-jiantou.jpg") no-repeat 0px;
+	width: 200px;
+	padding-left: 30px;
+	line-height: 30px;
+	height: 30px;
+}
+#nav {
+	color: gray;
+	line-height: 30px;
+	height: 30px;
+	padding-left: 5px;
+}
+#content hr {
+	width: 782px;
+	height: 1px;
+	border-top: 1px solid black;
+}
+#content .title {
+	width: 782px;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #777777;
+}
+#content .info {
+	width: 782px;
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+	font-size: 12px;
+	margin-bottom: 15px;
+	color: #000000;
+}
+#picArea {
+	float: left;
+	width: 406px;
+}
+#mainPic {
+
+	width: 406px;
+	height: 380px;
+	border: 1px solid #DBDBDB;
+}
+#picList {
+	width: 406px;
+}
+#picList ul {
+	display: block;
+	width: 390px;
+	height: 50px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-left:10px;
+}
+#picList li {
+	display: inline-block;
+	width: 46px;
+	height:46px;
+	border: 1px solid #DBDBDB;
+	margin-left: 10px;
+	cursor: pointer;
+}
+#picList .movL {
+	float:left;
+	margin-top:20px;
+	width: 4px;
+	height: 10px;
+
+	cursor: pointer;
+/*	margin-bottom: 20px;*/
+	background: url("../images/icon5.gif") no-repeat scroll 0 center transparent;
+}
+#picList .movR {
+	float:right;
+	width: 4px;
+	height: 10px;
+	margin-top:20px;
+	cursor: pointer;
+/*	margin-bottom: 20px;*/
+	background: url("../images/icon5.gif") no-repeat scroll -5px center transparent;
+}
+#simpleInfo {
+	float: left;
+	width: 300px;
+	margin-left: 40px;
+}
+#simpleInfo li {
+	float: left;
+	width: 300px;
+	/*	margin-top:20px;*/
+	line-height: 30px;
+	height: 30px;
+}
+#simpleInfo .lb {
+	font-weight: bold;
+}
+#labelList {
+	width: 782px;
+	margin-top: 20px;
+	height: 29px;
+	border-bottom: 1px solid #3BA4E6;
+}
+#labelList li {
+	float: left;
+	width: 100px;
+	background: url("../images/labelbg.gif") no-repeat 0px 0px;
+	line-height: 29px;
+	height: 29px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 14px;
+}
+#content .detail {
+	width: 782px;
+	font-size: 14px;
+	line-height: 25px;
+}
+.detail p {
+	font-size: 14px;
+	text-indent: 32px;
+}
+#content .newslink {
+	font-size: 12px;
+	margin-top: 30px;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Life System Configuration</comment>	
+	<!-- 系统 -->
+	<entry key="system">Life</entry>
+	
+	<!-- 错误码类 -->
+	<entry key="system.codeconstant">com.paipai.boss.life.util.LifeCodeConstant</entry>
+	
+	<!-- 数据库配置 -->
+	<entry key="database.driverName">oracle.jdbc.driver.OracleDriver</entry>
+	<entry key="database.url">jdbc:oracle:thin:@172.23.78.98:1521:ppdb</entry>
+	<entry key="database.user">c2cboss</entry>
+	<entry key="database.password">c2cboss</entry>
+	<entry key="database.initialSize">0</entry>
+	<entry key="database.maxActive">10</entry>
+	<entry key="database.maxIdle">10</entry>
+	<entry key="database.minIdle">10</entry>
+	<entry key="database.maxWait">2000</entry>
+	<entry key="database.validationQuery">select 1 from dual</entry>
+	<entry key="database.testOnBorrow">true</entry>
+	<entry key="database.poolPreparedStatements">false</entry>
+	<entry key="database.removeAbandoned">true</entry>
+	<entry key="database.removeAbandonedTimeout">3600</entry>
+	<entry key="database.logAbandoned">true</entry>
+	
+	<!-- Hibernate配置 -->
+	<entry key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</entry>
+	<entry key="hibernate.show_sql">false</entry>
+	<entry key="hibernate.format_sql">true</entry>
+	
+	<!-- 安全配置 -->
+	<entry key="security.systemId">lifeboss</entry>
+	<entry key="security.bossAdminUrl">http://admin.paipaioa.com/</entry>	
+	
+	<!-- 排行版 -->
+	<entry key="statItemIp">10.128.11.156</entry>
+	<entry key="statItemUser">user_paipai</entry>
+	<entry key="statItemPass">user@1009</entry>
+	<entry key="statItemSourcedir">/data/export/paipai/</entry>
+	<entry key="statItemLocaldir">/data/life/rank/</entry>
+	<entry key="statItemPort">36000</entry>
+	<entry key="sleepMin">1</entry>
+</properties>

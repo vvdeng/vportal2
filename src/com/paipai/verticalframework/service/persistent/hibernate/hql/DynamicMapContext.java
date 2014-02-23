@@ -1,0 +1,37 @@
+/**
+ * Copyright (C) 1998-2009 TENCENT Inc.All Rights Reserved.		
+ * 																
+ * FileName??DynamicMapContext.java					
+ *			
+ * Description????????????????			 
+ * History??
+ *  ?汾??    ????      ????       ?????????????
+ *  1.0     raywu   2010-11-04  Create	
+ */
+package com.paipai.verticalframework.service.persistent.hibernate.hql;
+
+import java.util.Map;
+
+/**
+ * ??????????????
+ * 
+ * @author raywu????????????
+ * @version 1.0???°汾???
+ * @see ?ο???JavaDoc
+ */
+public class DynamicMapContext extends MapContext {
+
+	public DynamicMapContext(Map target) {
+		super(target);
+	}
+
+	public DynamicMapContext() {
+		super();
+	}
+
+	public DynamicMapContext(Object... values) {
+		for (int i = 0; i < values.length; i++) {
+			add("p" + i, values[i]);
+		}
+	}
+}

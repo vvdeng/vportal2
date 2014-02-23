@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns="http://www.paipai.com/schema/context"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.paipai.com/schema/context"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:documentation>
+			<![CDATA[
+		XML Schema for the Context
+		]]>
+		</xsd:documentation>
+	</xsd:annotation>
+	<xsd:element name="component-scan">
+		<xsd:annotation>
+			<xsd:documentation>
+				<![CDATA[
+	Enables the scanning of anotated classes in the classpath.
+			]]>
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="handler" minOccurs="0"
+					maxOccurs="unbounded" />
+			</xsd:sequence>
+			<xsd:attribute name="packages" type="xsd:string"
+				use="required" />
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="handler">
+		<xsd:annotation>
+			<xsd:documentation>
+				<![CDATA[
+					Handler Config
+                ]]>
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="className" type="xsd:string" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
